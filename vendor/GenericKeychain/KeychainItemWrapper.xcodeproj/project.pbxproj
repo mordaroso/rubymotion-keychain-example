@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37A2A86A1553FD8F003D0A01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A2A8691553FD8F003D0A01 /* Foundation.framework */; };
+		37A2A8701553FD8F003D0A01 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A2A86F1553FD8F003D0A01 /* KeychainItemWrapper.m */; };
+		37A2A89215540163003D0A01 /* KeychainItemWrapper-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 37A2A89115540163003D0A01 /* KeychainItemWrapper-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37A2A8661553FD8F003D0A01 /* libKeychainItemWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKeychainItemWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A2A8691553FD8F003D0A01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37A2A86E1553FD8F003D0A01 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		37A2A86F1553FD8F003D0A01 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		37A2A89115540163003D0A01 /* KeychainItemWrapper-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KeychainItemWrapper-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A2A8631553FD8F003D0A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A2A86A1553FD8F003D0A01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A2A85B1553FD8F003D0A01 = {
+			isa = PBXGroup;
+			children = (
+				37A2A86B1553FD8F003D0A01 /* KeychainItemWrapper */,
+				37A2A8681553FD8F003D0A01 /* Frameworks */,
+				37A2A8671553FD8F003D0A01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37A2A8671553FD8F003D0A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A2A8661553FD8F003D0A01 /* libKeychainItemWrapper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A2A8681553FD8F003D0A01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A2A8691553FD8F003D0A01 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A2A86B1553FD8F003D0A01 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				37A2A89115540163003D0A01 /* KeychainItemWrapper-Prefix.pch */,
+				37A2A86E1553FD8F003D0A01 /* KeychainItemWrapper.h */,
+				37A2A86F1553FD8F003D0A01 /* KeychainItemWrapper.m */,
+			);
+			name = KeychainItemWrapper;
+			path = GenericKeychain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37A2A8641553FD8F003D0A01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A2A89215540163003D0A01 /* KeychainItemWrapper-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37A2A8651553FD8F003D0A01 /* KeychainItemWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A2A8731553FD8F003D0A01 /* Build configuration list for PBXNativeTarget "KeychainItemWrapper" */;
+			buildPhases = (
+				37A2A8621553FD8F003D0A01 /* Sources */,
+				37A2A8631553FD8F003D0A01 /* Frameworks */,
+				37A2A8641553FD8F003D0A01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainItemWrapper;
+			productName = GenericKeychain;
+			productReference = 37A2A8661553FD8F003D0A01 /* libKeychainItemWrapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A2A85D1553FD8F003D0A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 37A2A8601553FD8F003D0A01 /* Build configuration list for PBXProject "KeychainItemWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37A2A85B1553FD8F003D0A01;
+			productRefGroup = 37A2A8671553FD8F003D0A01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A2A8651553FD8F003D0A01 /* KeychainItemWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A2A8621553FD8F003D0A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A2A8701553FD8F003D0A01 /* KeychainItemWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37A2A8711553FD8F003D0A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A2A8721553FD8F003D0A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A2A8741553FD8F003D0A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GenericKeychain.dst;
+				EXECUTABLE_EXTENSION = a;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericKeychain/KeychainItemWrapper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KeychainItemWrapper;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		37A2A8751553FD8F003D0A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GenericKeychain.dst;
+				EXECUTABLE_EXTENSION = a;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericKeychain/KeychainItemWrapper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KeychainItemWrapper;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A2A8601553FD8F003D0A01 /* Build configuration list for PBXProject "KeychainItemWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A2A8711553FD8F003D0A01 /* Debug */,
+				37A2A8721553FD8F003D0A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A2A8731553FD8F003D0A01 /* Build configuration list for PBXNativeTarget "KeychainItemWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A2A8741553FD8F003D0A01 /* Debug */,
+				37A2A8751553FD8F003D0A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37A2A85D1553FD8F003D0A01 /* Project object */;
+}
