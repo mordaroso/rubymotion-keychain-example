@@ -2,7 +2,7 @@ class User
   attr_accessor :username, :password
 
   def initialize
-    @keychain = KeychainItemWrapper.alloc.initWithIdentifier 'FloatingBillLoginData', accessGroup: nil
+    @keychain = KeychainItemWrapper.alloc.initWithIdentifier 'ExampleAppLoginData', accessGroup: nil
     load
   end
 
