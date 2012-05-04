@@ -12,7 +12,7 @@ Clone the repo
 
 Enter the directory
 
-    cd rubymotion-keychain-example.git
+    cd rubymotion-keychain-example
 
 And run the project in the iOS Simulator
 
