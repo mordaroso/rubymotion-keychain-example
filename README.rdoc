@@ -1,0 +1,24 @@
+= RubyMotion Keychain Example
+
+This is a small RubyMotion example app to show how to use the Keychain storage from an iOS MacRuby app.
+
+== Install
+
+Please be sure to have {RubyMotion}[//http://www.rubymotion.com/] installed before continue.
+
+Clone the repo
+
+    git clone git://github.com/mordaroso/rubymotion-keychain-example.git
+
+Enter the directory
+
+    cd rubymotion-keychain-example.git
+
+And run the project in the iOS Simulator
+
+    rake
+
+
+== Screenshot
+
+{<img src="http://dl.dropbox.com/u/1098463/Screenshots/Screen%20Shot%202012-05-04%20at%2016.11.07.png" />}[http://dl.dropbox.com/u/1098463/Screenshots/Screen%20Shot%202012-05-04%20at%2016.11.07.png]
