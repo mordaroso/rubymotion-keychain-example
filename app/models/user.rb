@@ -13,7 +13,12 @@ class User
 
   def load
     self.username = @keychain.objectForKey KSecAttrAccount
-    NSLog("username: #{username}")
     self.password = @keychain.objectForKey KSecValueData
+  end
+
+  def reset
+    self.username = ''
+    self.password = ''
+    @keychain.resetKeychainItem
   end
 end
