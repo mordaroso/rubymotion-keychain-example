@@ -1,9 +1,14 @@
 class SettingsView < UIView
-  def drawRect(rect)
-    @user = UIApplication.sharedApplication.delegate.user
-    drawUsername
-    drawPassword
-    drawButton
+
+  def initWithFrame(rect)
+    if super
+      self.backgroundColor = UIColor.groupTableViewBackgroundColor
+      @user = UIApplication.sharedApplication.delegate.user
+      drawUsername
+      drawPassword
+      drawButton
+    end
+    self
   end
 
   def drawUsername
